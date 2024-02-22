@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Assistant", sans-serif;
+}
+:root {
+  --h1: 2.5vw;
+  --h2: 2vw;
+  --h3: 1.5vw;
+  --h4: 1.25vw;
+  --h5: 1vw;
+  --h6: 0.75vw;
+}
+
+.nav {
+  background-color: #000;
+  width: 100%;
+  height: 8vw;
+  display: flex;
+}
+.logo-container {
+  background-color: #000;
+  width: 25%;
+  margin-left: 10%;
+  padding: 1vw 0;
+}
+
+.logo-div {
+  height: 100%;
+  width: 50%;
+}
+
+.logo-div img {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-container {
+  background-color: #e80f0f;
+  width: 55%;
+  padding-right: 10%;
+}
+
+.contact-container {
+  height: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contact-btn {
+  width: 20%;
+  height: 70%;
+}
+
+.contact-btn button {
+  width: 90%;
+  height: 90%;
+  font-size: var(--h3);
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.list-container {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.list {
+  margin: 0 1.5vw;
+}
+.list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: var(--h3);
+}
+
+.banner-container {
+  width: 100%;
+  height: 80vh;
+  background: url("../image/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+.voice-container{
+    background-color: #414141bf;
+    width: 50%;
+}
