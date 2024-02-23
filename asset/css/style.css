@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: "Assistant", sans-serif;
 }
 :root {
-  --h1: 2.5vw;
-  --h2: 2vw;
-  --h3: 1.5vw;
-  --h4: 1.25vw;
-  --h5: 1vw;
-  --h6: 0.75vw;
+  --h1: 3rem;
+  --h2: 2rem;
+  --h3: 1.25rem;
+  --h4: 0.9rem;
+  --h5: 0.8rem;
+  --h6: 0.7rem;
 }
 
 .nav {
@@ -60,6 +58,7 @@
   height: 90%;
   font-size: var(--h3);
   color: #000;
+  border: 0;
   background-color: #fff;
   cursor: pointer;
 }
@@ -84,15 +83,67 @@
   background: url("../image/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.banner-div {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  height: 100%;
-}
+} 
+
+
 .voice-container{
     background-color: #414141bf;
-    width: 50%;
+    width: 40%;
+    margin-left: 35%;
+    height: 30vh;
+    padding: 2% 5%;
 }
+
+.voice-heading {
+  margin-top: 2%;
+}
+  .voice-heading h1{
+  font-size: var(--h1);
+    color: #fff;
+}
+.voice-text{
+  margin-top: 2%;
+  color: #fff;
+  font-size: var(--h5);
+}
+
+.voice-div{
+  display: flex;
+  margin-top: 5%;
+  gap: 1%;
+}
+
+.donate-btn{
+  width: 30%;
+  height: 3rem;
+}
+.donate-btn button{
+  width: 100%;
+  height: 100%;
+  color: #000;
+  border: 0;
+  cursor: pointer;
+  font-size: var(--h3);
+  background-color: #fff;
+}
+
+.explore-btn{
+  width: 30%;
+  height: 3rem;
+}
+.explore-btn button{
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: var(--h3);
+  background-color: #005DB3;
+}
+
+
+
+
+
